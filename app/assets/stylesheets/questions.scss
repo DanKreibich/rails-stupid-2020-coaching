@@ -1,0 +1,69 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Lato');
+
+$heading-color: grey;
+
+body{
+  font-family: 'Lato', sans-serif;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+h2{
+  font-size: 60px;
+  color: $heading-color;
+}
+
+p{
+  font-size: 24px;
+}
+
+div{
+  border-left-style: solid;
+  border-left-color: $heading-color;
+  border-left-width: 10px;
+  padding-left: 20px;
+
+  &#second{
+    background-color: #FEAF16;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+input{
+
+  &#field{
+  padding: 15px 30px 15px 30px;
+  border-color-top: $heading-color !important;
+  border-color-left: $heading-color !important;
+  border-color-bottom: $heading-color !important;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-right-style: hidden;
+  width: 50%;
+  }
+  &#button{
+  padding: 15px 30px 15px 30px;
+  background-color: blue;
+  color: white;
+  border-left-style: hidden;
+  border-color-top: $heading-color !important;
+  border-color-right: $heading-color !important;
+  border-color-bottom: $heading-color !important;
+  margin-left: -5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  }
+
+}
+
